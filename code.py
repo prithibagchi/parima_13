@@ -6,7 +6,7 @@ import streamlit as st
 model = pickle.load(open('rf_clf.pkl', 'rb'))
 
 # Load the dataset
-df = pd.read_csv('C:/Users/Lenovo/cleaned_data_1.csv')
+df = pd.read_csv("D:\python\Project_2_360dgtmg\DATA\prima_13.csv")
 
 # Specify the title and logo for the web page.
 st.set_page_config(
