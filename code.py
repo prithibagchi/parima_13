@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the saved model
-model = pickle.load(open('rf_clf.pkl', 'rb'))
+model1 = pickle.load(open('svc_rcv.pkl', 'rb'))
 
 # Load the dataset
 df = pd.read_csv("D:\python\Project_2_360dgtmg\DATA\prima_13.csv")
